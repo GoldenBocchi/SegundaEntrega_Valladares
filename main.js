@@ -9,7 +9,7 @@ function Introduccion(){
     mensajeInicial();
 
     while(flag!=1){
-        let pregunta=parseInt(prompt("Ingre tu opción (solo int)"))
+        let pregunta=parseInt(prompt("Ingresa tu opción (solo int)"))
         switch(pregunta){
             case 1:
                 console.log("Usted decidio verificar todos los tipos de vuelos de la lista brindada");
