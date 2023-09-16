@@ -6,6 +6,7 @@ Introduccion()
 
 function Introduccion(){
     let flag=0;
+    mensajeInicial();
 
     while(flag!=1){
         let pregunta=parseInt(prompt("Ingre tu opción (solo int)"))
@@ -85,3 +86,9 @@ function ContadorAerolinea(codigos,selectorCA,tipoCA){
     console.log(mensaje)
 }
 
+function mensajeInicial(){
+    console.log("Opciones disponibles");
+    console.log("1 -> Verificar todos los tipos de vuelos de la lista brindada");
+    console.log("2 -> Verificar la cantidad de vuelos por ciudad y tipo de vuelo");
+    console.log("3 -> Verificar la cantidad de vuelos por aerolinea y tipo de vuelo")
+}
